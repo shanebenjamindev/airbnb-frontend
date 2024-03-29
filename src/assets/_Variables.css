@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #c69841;
+    --secondary-color: #b6914e;
+    --transparent-color: transparent;
+
+    --bg-primary: #a48244;
+    --bg-secondary: rgb(222, 222, 222);
+    --bg-dark-color: #2e2e2e;
+
+    --white-color: white;
+}

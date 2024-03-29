@@ -1,0 +1,61 @@
+.entry-media img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video__Content {
+    position: relative;
+}
+
+.btn-play {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all .3s;
+    background: url(http://landing.engotheme.com/html/skyline/demo/images/Blog/Shape-101.png);
+    width: 3rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    z-index: 2;
+    animation-name: btnplay;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.modal-body {    
+    display: flex;
+    justify-content: center;
+}
+
+.modal-dialog {
+    top: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.btn-play:hover {
+    width: 70px;
+    height: 70px;
+    background: url(http://landing.engotheme.com/html/skyline/demo/images/Blog/Shape-1101.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+@keyframes btnplay {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

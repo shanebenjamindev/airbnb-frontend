@@ -1,0 +1,13 @@
+@import url(./_Reset.css);
+@import url(./custom-section.css);
+@import url(./custom-card.css);
+@import url(./custom-button.css);
+@import url(./custom-dropdown.css);
+@import url(./custom-element.css);
+
+.App {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}

@@ -1,0 +1,108 @@
+.footer-sky.footer-sky-v4 {
+  padding-top: 45px;
+  box-shadow: inset rgba(0, 0, 0, 0.2) 10rem 10rem 10rem 10rem;
+  background-color: transparent;
+  background: url(http://landing.engotheme.com/html/skyline/demo/images/Home-4/footer.jpg) no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.footer-sky .footer-top {
+  padding: 32px 0;
+  margin: -2px 0;
+}
+
+.icon-email {
+  display: inline-block;
+}
+
+.footer-top h2 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.footer__Bottom {
+  color: var(--white-color);
+}
+
+.footer-top p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.input-group {
+  border: 2px solid white;
+}
+
+.footer-sky.footer-sky-v4 .textbox .input-group .form-control {
+  background: transparent !important;
+}
+
+.footer-sky.footer-sky-v4 .textbox .input-group .btn {
+  background: transparent !important;
+}
+
+.footer-sky .footer-bottom.bottom-v3 {
+  line-height: 85px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  color: #ebebeb;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.footer-bottom .footer-bottom-l {
+  color: #ebebeb;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.footer-sky.footer-sky-v4 .footer-bottom .footer-bottom-l a {
+  font-weight: 400;
+  color: #8e7037;
+}
+
+.footer-sky.footer-sky-v4 .footer-bottom .footer-icon a {
+  padding: 0px 17px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-sky.footer-sky-v4 .footer-top {
+  background: 0;
+}
+
+.btn-footer {
+  border: 1px solid grey;
+  border-radius: 0px;
+  box-shadow: none;
+  position: relative;
+  right: 0px;
+  bottom: 0;
+  padding: 0 40px;
+  z-index: 99;
+  font-size: 40px;
+}
+
+.forwar {
+  width: 100%;
+  top: -13px;
+  left: 0;
+  color: white;
+  position: absolute;
+}
+
+.forwar:hover {
+  color: #8e7037;
+  transform: translateX(10px);
+  transition: all 1s;
+}
+
+.payments {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}

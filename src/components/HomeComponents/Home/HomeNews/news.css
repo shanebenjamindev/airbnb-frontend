@@ -1,0 +1,31 @@
+.substance .date .day {
+  font-size: 45px;
+  font-family: "Playfair", serif;
+  color: #898989;
+  display: inline-block;
+  padding-right: 7px;
+  font-weight: 400;
+}
+
+.substance .date .year {
+  color: #898989;
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 5px;
+  line-height: 20px;
+  border-left: 1px solid #ebebeb;
+  padding-left: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.substance .text a {
+  color: #232323;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+
+.substance {
+  border-left: 1px solid #ebebeb;
+}

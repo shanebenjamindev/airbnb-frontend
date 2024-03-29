@@ -1,0 +1,208 @@
+.header {
+    transition: all 0.5s ease;
+    background: rgb(50, 50, 50);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 30px;
+}
+
+.navbar__Container {
+    position: relative;
+    height: auto;
+}
+
+#navbarSupportedContent {
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+}
+
+.navbar-brand {
+    z-index: 9999;
+}
+
+.navne {
+    padding-top: 3rem;
+}
+
+.navne2 {
+    padding-bottom: 1rem;
+}
+
+.btn__Search {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn__Search:hover {
+    color: var(--primary-color);
+    background-color: white;
+    border-color: var(--primary-color);
+}
+
+
+.icon>a:hover {
+    background: transparent;
+    color: var(--primary-color);
+}
+
+header input,
+select,
+.optTrans {
+    background-color: transparent;
+}
+
+.nav-item>a {
+    font-weight: 700;
+}
+
+.nav-item>a:hover {
+    background: transparent;
+    color: var(--primary-color);
+}
+
+.content1 {
+    color: white;
+    font-size: 15px;
+}
+
+.phone1 {
+    color: white;
+}
+
+.icon1 {
+    color: white;
+    font-size: 15px;
+}
+
+.icon1 a {
+    color: white;
+}
+
+.icon1 a:hover {
+    color: var(--primary-color) !important;
+}
+
+
+.rounded-50 {
+    border-radius: 50px;
+}
+
+.user-avatar {
+    z-index: 999;
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    align-items: center;
+    color: var(--primary-color) !important;
+}
+
+.customHover {
+    z-index: 999;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.customHover:hover {
+    box-shadow: rgba(0, 0, 0, 16) 0px 1px 4px;
+    background-color: transparent;
+}
+
+/* BUTTON SHOW FORM */
+.btnFindRoom__Container {
+    cursor: pointer;
+    top: 1.2rem;
+    width: 100%;
+}
+
+.btnFindRoom__Items {
+    z-index: 12;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* items in button */
+.btnFindRoom__Item {
+    font-size: smaller;
+    padding: 0 5px;
+    color: var(--primary-color);
+}
+
+.btnFindRoom__Item:first-child,
+.btnFindRoom__Item:nth-child(2) {
+    border-right: 1px solid var(--primary-color);
+}
+
+.btnFindRoom__Item:last-child {
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+}
+
+
+.btnFindRoom__Container-active {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* -------------------------------------------------- */
+
+/* FORM */
+.formFindRoom-Hide {
+    position: absolute;
+    opacity: 0;
+    transform: translateY(-3rem);
+    visibility: hidden;
+    transition: all 0.25s ease;
+    z-index: -99;
+    left: 0;
+}
+
+.formFindRoom {
+    border-radius: 50px;
+    border: 1px solid rgb(213, 213, 213);
+    background-color: whitesmoke;
+
+}
+
+.formFindRoom-Show {
+    z-index: 12;
+    opacity: 1;
+    transition: all 0.25s ease;
+    visibility: visible;
+}
+
+.formFindRoom__Item {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 50px;
+
+}
+
+.navbar-brand {
+    z-index: 9999;
+}
+
+.form__Fragment {
+    border: 1px solid var(--primary-color) !important;
+}
+
+.formDropdown {
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 8px;
+    height: 30px;
+}
+
+/* pc: width >= 1024px */
+@media screen and (min-width: 1280px) {
+    #navbarSupportedContent {
+        position: absolute;
+        top: 0.1rem;
+    }
+}
